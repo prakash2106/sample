@@ -16,7 +16,7 @@ SearchPage s = new SearchPage();
 		LoginPage lo=new LoginPage();
 		BaseClassProject b= new BaseClassProject();
 		
-		l.enterText(lo.getUserName(), "franklin@g,ail.com");
+		l.enterText(lo.getUserName(), "franklin@gmail.com");
 		b.dropDown(s.getLocation(), "value", "Sydney");
 	
 }
